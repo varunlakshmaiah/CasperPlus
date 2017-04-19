@@ -8,6 +8,7 @@
             <li class="nav-{{slug}}{{#if current}} nav-current{{/if}}"><a href="{{url absolute="true"}}">{{label}}</a></li>
         {{/foreach}}
     </ul>
+
     {{#if @labs.subscribers}}
         <a class="subscribe-button" href="{{@blog.url}}/subscribe/">Subscribe</a>
     {{else}}
