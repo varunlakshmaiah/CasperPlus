@@ -711,18 +711,7 @@ body.nav-opened .nav {
     counter-reset: item;
 }
 
-.nav li:before {
-    display: block;
-    float: right;
-    padding-right: 4%;
-    padding-left: 5px;
-    text-align: right;
-    font-size: 1.2rem;
-    vertical-align: bottom;
-    color: #B8B8B8;
-    content: counter(item, lower-roman);
-    counter-increment: item;
-}
+
 .nav li {
     margin: 0;
 }
@@ -736,12 +725,7 @@ body.nav-opened .nav {
     white-space: nowrap;
     text-overflow: ellipsis;
 }
-.nav li a:after {
-    display: inline-block;
-    content: " .......................................................";
-    color: rgba(255,255,255,0.2);
-    margin-left: 5px;
-}
+
 .nav .nav-current:before {
     color: #fff;
 }
@@ -996,7 +980,7 @@ body.nav-opened .nav {
 .post {
     position: relative;
     width: 80%;
-    max-width: 710px;
+    max-width: 768px;
     margin: 4rem auto;
     padding-bottom: 4rem;
     border-bottom: #EBF2F6 1px solid;
@@ -1577,7 +1561,7 @@ body.page-template .post-title {
 .pagination {
     position: relative;
     width: 80%;
-    max-width: 710px;
+    max-width: 768px;
     margin: 4rem auto;
     font-family: "Open Sans", sans-serif;
     font-size: 1.3rem;
