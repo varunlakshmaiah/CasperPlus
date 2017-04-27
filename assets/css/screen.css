@@ -996,7 +996,7 @@ body.nav-opened .nav {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 70vh;
+    min-height: 400px;
   }
 
 /* Add a little circle in the middle of the border-bottom on our .post
@@ -1787,7 +1787,7 @@ body.page-template .post-title {
     }
 
     .post .post-img {
-        height: 60vh;
+        min-height: 300px;
       }
 
     body:not(.post-template) .post-title {
@@ -1997,7 +1997,7 @@ body.page-template .post-title {
     }
 
     .post .post-img {
-        height: 30vh;
+        min-height: 230px;
       }
 
 
