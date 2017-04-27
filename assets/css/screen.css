@@ -779,6 +779,35 @@ body.nav-opened .nav {
     margin-right: 6px;
 }
 
+ul.sidebar-social {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 25px;
+  left: 30px;
+  right: 30px;
+}
+
+ul.sidebar-social a{
+  text-align: center;
+  font-size: 3rem;
+}
+
+.sidebar-social li {
+    flex: 1;
+}
+
+
+ul.sidebar-social .icon-twitter:hover {
+    color: #55acee;
+}
+ul.sidebar-social .icon-facebook:hover {
+    color: #3b5998;
+}
+ul.sidebar-social .icon-google-plus:hover {
+    color: #dd4b39;
+}
 
 /* Create a bouncing scroll-down arrow on homepage with cover image */
 .scroll-down {

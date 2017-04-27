@@ -8,8 +8,15 @@
             <li class="nav-{{slug}}{{#if current}} nav-current{{/if}}"><a href="{{url absolute="true"}}">{{label}}</a></li>
         {{/foreach}}
     </ul>
+    <ul class="sidebar-social">
+    {{#if @blog.facebook}}  <li><a href="https://www.facebook.com/{{@blog.facebook}}" class="icon-facebook"></a></li> {{/if}}
+    {{#if @blog.twitter}}  <li><a href="https://www.twitter.com/{{@blog.twitter}}" class="icon-twitter"></a></li>   {{/if}}
+    
+    </ul>
+
 
     {{#if @labs.subscribers}}
+
         <a class="subscribe-button" href="{{@blog.url}}/subscribe/">Subscribe</a>
     {{else}}
         <a class="subscribe-button icon-feed" href="{{@blog.url}}/rss/">Subscribe</a>
