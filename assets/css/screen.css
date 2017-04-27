@@ -890,7 +890,7 @@ ul.sidebar-social .icon-google-plus:hover {
     border-width: 1px;
     opacity: 1;
     text-align: center;
-    font-size: 12px;
+    font-size: 15px;
     text-transform: uppercase;
     line-height: 35px;
     white-space: nowrap;
@@ -922,8 +922,8 @@ ul.sidebar-social .icon-google-plus:hover {
 
 /* When the navigation is closed and there is no cover image */
 .nav-closed .no-cover .menu-button {
-    border-color: #BFC8CD;
-    color: #9EABB3;
+    border-color: #000;
+    color: #000;
 }
 .nav-closed .no-cover .menu-button:hover {
     border-color: #555;
