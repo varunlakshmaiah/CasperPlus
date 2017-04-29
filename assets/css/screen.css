@@ -1261,6 +1261,12 @@ body.page-template .post-title {
     font-style: italic;
     color: #9EABB3;
 }
+.author-social-link {
+  display: inline-flex;
+  align-self: center;
+  margin-right: 2rem;
+  font-size: 3rem;
+}
 
 .author-meta a {
     color: #9EABB3;
